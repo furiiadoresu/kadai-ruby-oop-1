@@ -21,26 +21,21 @@ class Team
   end
 end
 
-team_Giants = Team.new("Giants",67, 45, 8)
-team_Giants.show_team_result
-#p team_Giants
+team_giants = Team.new("Giants",67, 45, 8)
+team_giants.show_team_result
 
-team_Tigers = Team.new("Tigers",60, 53, 7)
-team_Tigers.show_team_result
+team_tigers = Team.new("Tigers",60, 53, 7)
+team_tigers.show_team_result
 #p team_Tigers
 
-team_Dragons = Team.new("Dragons",60, 55, 5)
-team_Dragons.show_team_result
-#p team_Dragons
+team_dragons = Team.new("Dragons",60, 55, 5)
+team_dragons.show_team_result
 
-team_BayStars = Team.new("BayStars",56, 58, 6)
-team_BayStars.show_team_result
-#p team_BayStars
+team_bayStars = Team.new("BayStars",56, 58, 6)
+team_bayStars.show_team_result
 
-team_Carp = Team.new("Carp",52, 56, 12)
-team_Carp.show_team_result
-#p team_Carp
+team_carp = Team.new("Carp",52, 56, 12)
+team_carp.show_team_result
 
-team_Swallows = Team.new("Swallows",41, 69, 10)
-team_Swallows.show_team_result
-#p team_Swallows
+team_swallows = Team.new("Swallows",41, 69, 10)
+team_swallows.show_team_result
