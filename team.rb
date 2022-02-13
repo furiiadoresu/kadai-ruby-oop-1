@@ -11,13 +11,13 @@ class Team
   end
 
   # オブジェクトのメソッド（勝率）
-  def calc_win_rate(win, lose)
+  def calc_win_rate
     # 勝ち数/(勝ち数+負け数)
-    return win.to_f/(win.to_f + lose.to_f)
+    return self.win.to_f/(self.win.to_f + self.lose.to_f)
   end
   
   def show_team_result
-    puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は #{self.calc_win_rate(win, lose)}です。"
+    puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は #{self.calc_win_rate}です。"
   end
 end
 
